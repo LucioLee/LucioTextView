@@ -86,7 +86,6 @@ IB_DESIGNABLE
 
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-    
 }
 
 @end
